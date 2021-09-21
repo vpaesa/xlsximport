@@ -1,5 +1,5 @@
 # xlsximport
-**xlsximport is a [SQLite extension](https://sqlite.org/loadext.html) that allows direct importing of XLSX Excel 2007 files (a.k.a. Open Office XML)**
+**xlsximport is an [SQLite extension](https://sqlite.org/loadext.html) that allows direct importing of XLSX Excel 2007 files (a.k.a. Open Office XML)**
 
 ### FEATURES:
 * This extension defines the `importxlsx()` [application-defined SQL function](https://sqlite.org/appfunc.html) to import XLSX Excel 2007 files (a.k.a. Open Office XML) data into an SQLite table. 
@@ -21,7 +21,7 @@ After importing, you can perform by yourself the conversion you need by using si
 ```
 .load importxlsx
 
-select importxlsx(FILE, TABLE SHEET);
+select importxlsx(FILE, TABLE, SHEET);
 
 --  FILE  input spreadsheet in XLSX Excel 2007 format
 --  TABLE name of the table where data is imported
