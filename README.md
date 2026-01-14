@@ -1,4 +1,4 @@
-# xlsximport
+# ~~xlsximport~~ (Obsolete: use [xlsximpexp_ai](https://github.com/vpaesa/xlsximpexp_ai/) instead)
 **xlsximport is an [SQLite extension](https://sqlite.org/loadext.html) that allows direct importing of XLSX Excel 2007 files (a.k.a. Open Office XML)**
 
 ### FEATURES:
